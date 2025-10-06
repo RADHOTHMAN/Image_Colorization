@@ -1,0 +1,4 @@
+project_id = "sloubhhdxitqvwvvamrr"
+
+[functions.colorize-image]
+verify_jwt = false
