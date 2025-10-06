@@ -81,7 +81,7 @@ const Index = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Sparkles className="w-8 h-8 text-primary" />
             <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              AI Image Colorizer
+              Image Colorizer
             </h1>
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -118,7 +118,7 @@ const Index = () => {
         </main>
 
         <footer className="text-center mt-12 text-sm text-muted-foreground">
-          <p>Powered by Lovable AI • Free during beta period</p>
+          <p>Powered by Lovable Cloud • Free during beta period</p>
         </footer>
       </div>
     </div>
