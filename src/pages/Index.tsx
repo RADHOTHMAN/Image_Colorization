@@ -84,9 +84,6 @@ const Index = () => {
               Image Colorizer
             </h1>
           </div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Transform grayscale images into vibrant color photos, or convert color images to classic black and white
-          </p>
         </header>
 
         <main className="max-w-6xl mx-auto">
@@ -117,9 +114,6 @@ const Index = () => {
           </div>
         </main>
 
-        <footer className="text-center mt-12 text-sm text-muted-foreground">
-          <p>Powered by Lovable Cloud • Free during beta period</p>
-        </footer>
       </div>
     </div>
   );
