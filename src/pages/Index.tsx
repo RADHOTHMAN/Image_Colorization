@@ -5,7 +5,7 @@ import { ModeSelector } from "@/components/ModeSelector";
 import { convertToGrayscale, fileToBase64 } from "@/utils/imageProcessing";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
-import { Sparkles } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -78,12 +78,9 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-background to-muted">
       <div className="container mx-auto px-4 py-12">
         <header className="text-center mb-12 animate-fade-in">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <Sparkles className="w-8 h-8 text-primary" />
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Image Colorizer
-            </h1>
-          </div>
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            Image Colorizer
+          </h1>
         </header>
 
         <main className="max-w-6xl mx-auto">
